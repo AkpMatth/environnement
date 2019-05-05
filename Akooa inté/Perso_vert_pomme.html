@@ -1,0 +1,282 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akooa</title>
+
+    <style>
+    
+    body {
+        height: 812px;
+        width: 375px;
+    }
+
+    header {
+        height: 100px;
+        width: 375px;
+        background-color: #345D67;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .header_text {
+        color: white;
+        font-size: 45px;
+        font-family: "DIN Alternate";
+    }
+
+    .content {
+        background-image: url(./images/BG.png);
+        height: 712px;
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .design {
+        width: 320px;
+        height: 367px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .akooaimg1 {
+        width: 96px;
+        height: 295px;
+    }
+
+    .colors {
+        height: 367px;
+        width: 170px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .c_text {
+        color: white;
+        font-size: 45px;
+        font-family: "DIN Alternate";
+        margin: 0 auto;
+        text-decoration: underline;
+        text-decoration-color: #04F5FF;
+    }
+
+    .colors_pallet {
+        display: flex;
+        width: 170px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .black {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: black;
+        margin-bottom: 15px;
+    }
+
+    .red {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #FF0000;
+        margin-bottom: 15px;
+    }
+
+    .dark_pink {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #FF0093;
+        margin-bottom: 15px;
+    }
+
+    .light_pink {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #FF00F5;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+
+    .purple {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #8900FF;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+
+    .dark_blue {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #1400FF;
+        margin-bottom: 15px;
+    }
+
+    .light_blue {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #00A7FF;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+
+    .extralight_blue {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #00F5FF;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+
+    .light_green {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #00FF9D;
+        margin-bottom: 15px;
+    }
+
+    .dark_green {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #1DFF00;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+
+    .apple_green {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #CEFF00;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+
+    .yellow {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #FFEB00;
+        margin-bottom: 15px;
+    }
+
+    .light_orange {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #FFB100;
+        margin-right: 15px;
+    }
+
+    .dark_orange {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: #FF7600;
+        margin-right: 15px;
+    }
+
+    .none {
+        width: 40px;
+        height: 40px;
+        border: solid 3px white;
+        border-radius: 25px;
+        background: none;
+    }
+
+    .command25 {
+        width: 332px;
+        height: 66px;
+        border: solid 6px #04F5FF;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .command_text {
+        font-size: 40px;
+        color: white;
+        font-family: "DIN Alternate";
+        margin: 0 auto;
+    }
+
+    </style>
+
+</head>
+<body>
+    
+<header>
+    <a href="Home.html">
+        <h1 class="header_text">Akooa</h1>
+    </a>
+</header>
+
+<div class="content">
+<div class="design">
+    <img class="akooaimg1" src="Images/Vert Pomme.png" alt="Gourde Originale">
+    <div class="colors">
+        <div class="colors_text">
+            <p class="c_text">Couleurs</p>
+        </div>
+        <div class="colors_pallet">
+            <a href="./Perso_noir.html"><div class="black"></div></a>
+            <a href="./Perso_rouge.html"><div class="red"></div></a>
+            <a href="./Perso_rose_foncé.html"><div class="dark_pink"></div></a>
+            <a href="./Perso_rose_clair.html"><div class="light_pink"></div></a>
+            <a href="./Perso_violet.html"><div class="purple"></div></a>
+            <a href="./Perso_bleu_foncé.html"><div class="dark_blue"></div></a>
+            <a href="./Perso_bleu_clair.html"><div class="light_blue"></div></a>
+            <a href="./Perso_turquoise.html"><div class="extralight_blue"></div></a>
+            <a href="./Perso_vert_clair.html"><div class="light_green"></div></a>
+            <a href="./Perso_vert_foncé.html"><div class="dark_green"></div></a>
+            <a href="./Perso_vert_pomme.html"><div class="apple_green"></div></a>
+            <a href="./Perso_jaune.html"><div class="yellow"></div></a>
+            <a href="./Perso_orange_clair.html"><div class="light_orange"></div></a>
+            <a href="./Perso_orange_foncé.html"><div class="dark_orange"></div></a>
+            <a href="./Perso_original.html"><div class="none"></div></a>
+        </div>
+    </div>
+</div>
+<a href="Com_vert_pomme.html">
+    <div class="command25">
+        <h3 class="command_text">Commander : 25€</h3>
+    </div>
+</a>
+</div>
+
+</body>
+</html>
